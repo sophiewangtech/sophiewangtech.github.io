@@ -1,3 +1,9 @@
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+title: Sophie's Tech World
+description: Welcome to Sophie's Tech World! I have been working in the IT technical support for years. I will share witl you practical guidance about solving all kinds of technical issues.
+
+show_downloads: false
+google_analytics: [Your Google Analytics tracking ID]
