@@ -1,6 +1,7 @@
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-include-cache
 
 title: Sophie's Tech World
 description: Welcome to Sophie's Tech World! I have been working in the IT technical support for years. I will share witl you practical guidance about solving all kinds of technical issues.
