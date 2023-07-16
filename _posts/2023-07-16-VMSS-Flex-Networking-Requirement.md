@@ -15,3 +15,12 @@ Recently I took a case that customer has special networking requirements for cre
 
 Customer's requirements:
 Customer needs to create VMSS with Flexible orchestration mode. He needs to create in an existing vNet "prdvmss-vnet" and subnet "prdvmss-subnet1". There are no Load Balancer or NAT gateway allowed to be created in the vNet. Their organization also doesn't allow any public IP used in Azure environment.
+
+
+The issue Customer met:
+
+Customer tried to create the VMSS in the portal. He chose the existing vnet and subnet. He kept the LB setting as none. 
+He edited the vnic to disable the public IP.
+After he clicked ok to save and returned to the VMSS creating page, he found a warning showing that "The virtual machine scale set with Flexible orchestration mode does not have outbound connectivity. Please use an Azure load balancer or configure a NAT gateway or user-defined routes (UDR) on the subnet."
+He failed to create the VMSS in the Azure portal.
+He remembered that previous he created VMSS with uniform orchestration using the same steps and he was able to create it successfully. 
