@@ -1,8 +1,8 @@
 ---
-title: "VMSS Flex mode networking requirement"
-date: 2023-07-16T10:35:30
+title: "VMSS Flexible Mode Networking Requirement"
+date: 2023-07-16
 categories:
-  - blog
+  - Azure VM
 tags:
   - Azure
   - VMSS
