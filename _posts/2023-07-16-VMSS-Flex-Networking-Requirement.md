@@ -13,11 +13,11 @@ You might already notice when you create VMSS using az cli. The default orchestr
 Recently I took a case that customer has special networking requirements for creating VMSS Flex. I took the chance to have a deep dive of configuring the networking for VMSS Flex. I'd like to share it here. 
 
 
-Customer's requirements:
+**Customer's requirements:**
 Customer needs to create VMSS with Flexible orchestration mode. He needs to create in an existing vNet "prdvmss-vnet" and subnet "prdvmss-subnet1". There are no Load Balancer or NAT gateway allowed to be created in the vNet. Their organization also doesn't allow any public IP used in Azure environment.
 
 
-The issue Customer met:
+**The issue Customer met:**
 
 Customer tried to create the VMSS in the portal. He chose the existing vnet and subnet. He kept the LB setting as none. 
 He edited the vnic to disable the public IP.
