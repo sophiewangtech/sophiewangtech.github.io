@@ -9,7 +9,7 @@ tags:
 ---
 
 You might already notice when you create VMSS using az cli. The default orchestration mode will be changed to Flexible mode in November 2023. One big difference in creating the VMSS Flex is that it requires explicit outbound connectivity configured. 
-<img src="/assets/images/post0716-1.png" alt="pic1" width="600" height="600">
+<img src="/assets/images/post0716-1.png" alt="pic1" width="1000" height="1000">
 
 Recently I took a case that customer has special networking requirements for creating VMSS Flex. I took the chance to have a deep dive of configuring the networking for VMSS Flex. I'd like to share it here. 
 
